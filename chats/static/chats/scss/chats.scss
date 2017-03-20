@@ -1,0 +1,35 @@
+body, html {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+form {
+	padding: 5px;
+}
+
+#objects {
+	position: relative;
+	top: -10px;
+	width: 100%;
+	height: 100%;
+}
+
+div.greedy {
+	width: 100%;
+	height: 100%;
+}
+
+div.dialogs {
+	display: none;
+}
+
+.jsPanel-backdrop {
+	z-index: 1099;
+}

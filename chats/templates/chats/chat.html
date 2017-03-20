@@ -1,0 +1,24 @@
+<li class="panel panel-info">
+	<div class="panel-heading ui-sortable-handle">
+		<a href="" class="btn btn-info pull-left btn-xs">
+			<span class="glyphicon glyphicon-cog"></span>
+		</a>
+		&nbsp;{{ chat.identifier }} {% trans "on" %} {{ chat.provider_name }}
+		<a href="" class="btn btn-danger pull-right btn-xs">
+			<span class="glyphicon glyphicon-remove"></span>
+		</a>
+	</div>
+	<div class="panel-body ui-resizable">
+		<div class="greedy">
+			<div class="greedy">
+				<div class="greedy">
+					{{ chat | safe }}
+				</div>
+			</div>
+		</div>
+{#		<div style="z-index: 90;" class="ui-resizable-handle ui-resizable-e"></div>#}
+{#		<div style="z-index: 90;" class="ui-resizable-handle ui-resizable-s"></div>#}
+{#		<div style="z-index: 90;"#}
+{#		     class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"></div>#}
+	</div>
+</li>

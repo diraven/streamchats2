@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-02 12:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/base/index.html:20
+msgid "Let's start!"
+msgstr ""
+
+#: templates/base/index.html:21
+msgid "Logout!"
+msgstr ""
+
+#: templates/base/index.html:24
+msgid "Welcome,"
+msgstr ""
+
+#: templates/base/index.html:30
+msgid "Login (Email)"
+msgstr ""
+
+#: templates/base/index.html:33
+msgid "Password"
+msgstr ""
+
+#: templates/base/index.html:35
+msgid "Sign in"
+msgstr ""
+
+#: templates/base/index.html:36
+msgid "Sign up"
+msgstr ""
+
+#: templates/base/index.html:47
+msgid "Streamchats 2"
+msgstr ""
+
+#: templates/base/index.html:49
+msgid ""
+"This is second reincarnation of the older streamchats service - a tool that "
+"allows you to see and interact with webchats from different streaming "
+"service on one single page."
+msgstr ""
+
+#: templates/base/index.html:51
+msgid "Get started!"
+msgstr ""
+
+#: templates/base/index.html:59
+msgid "Security"
+msgstr ""
+
+#: templates/base/index.html:61
+msgid ""
+"Your passwords are never stored, used or transferred by this service. You "
+"interact directly with respective streaming platforms."
+msgstr ""
+
+#: templates/base/index.html:66
+msgid "Compatibility"
+msgstr ""
+
+#: templates/base/index.html:68
+msgid ""
+"All you need to get it working - just about any modern browser - and you are "
+"good to go."
+msgstr ""
+
+#: templates/base/index.html:73
+msgid "Ease of use"
+msgstr ""
+
+#: templates/base/index.html:75
+msgid "You are just a few clicks away from your own streamchats dashboard."
+msgstr ""
+
+#: templates/base/tools/form/generic.html:5
+msgid "Submit"
+msgstr ""

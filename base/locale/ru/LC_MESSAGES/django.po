@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-02 12:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: templates/base/index.html:20
+msgid "Let's start!"
+msgstr "Поехали!"
+
+#: templates/base/index.html:21
+msgid "Logout!"
+msgstr "Выйти"
+
+#: templates/base/index.html:24
+msgid "Welcome,"
+msgstr "Добро пожаловать,"
+
+#: templates/base/index.html:30
+msgid "Login (Email)"
+msgstr "Логин (или Email)"
+
+#: templates/base/index.html:33
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/base/index.html:35
+msgid "Sign in"
+msgstr "Войти"
+
+#: templates/base/index.html:36
+msgid "Sign up"
+msgstr "Регистрация"
+
+#: templates/base/index.html:47
+msgid "Streamchats 2"
+msgstr ""
+
+#: templates/base/index.html:49
+msgid ""
+"This is second reincarnation of the older streamchats service - a tool that "
+"allows you to see and interact with webchats from different streaming "
+"service on one single page."
+msgstr ""
+"Это вторая реинкарнация сервиса Streamchats - иснтрумента для стримеров, "
+"пользующихся одновременно несколькими платформами. Сразу несколько чатов "
+"будут доступны на одной странице."
+
+#: templates/base/index.html:51
+msgid "Get started!"
+msgstr "Поехали!"
+
+#: templates/base/index.html:59
+msgid "Security"
+msgstr "Безопасность"
+
+#: templates/base/index.html:61
+msgid ""
+"Your passwords are never stored, used or transferred by this service. You "
+"interact directly with respective streaming platforms."
+msgstr ""
+"Ваши пароли от соответствующих стрим сервисов здесь не хранятся и не "
+"передаются, а значит в полной безопасности."
+
+#: templates/base/index.html:66
+msgid "Compatibility"
+msgstr "Совместимость"
+
+#: templates/base/index.html:68
+msgid ""
+"All you need to get it working - just about any modern browser - and you are "
+"good to go."
+msgstr ""
+"Все что надо чтобы начать работу - практически любой современный броузер."
+
+#: templates/base/index.html:73
+msgid "Ease of use"
+msgstr "Простота в использовании."
+
+#: templates/base/index.html:75
+msgid "You are just a few clicks away from your own streamchats dashboard."
+msgstr ""
+"Вы всего лишь в нескольких кликах от настройки своей панели чатов "
+"streamchats!"
+
+#: templates/base/tools/form/generic.html:5
+msgid "Submit"
+msgstr "Подтвердить"

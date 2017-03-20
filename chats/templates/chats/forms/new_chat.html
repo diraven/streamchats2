@@ -1,0 +1,24 @@
+{% load i18n %}
+<form id="form_chat_new" action="{% url "chats.ajax.new" %}" method="post">
+	{% csrf_token %}
+	{% include "base/tools/form/bootstrapped.html" with form=form %}
+	<button type="submit" class="btn btn-success">{% trans "Submit" %}</button>
+	<script>
+		$(function() {
+			var form = $('#form_chat_new');
+			form.ajaxForm({
+				success: function(data, status)
+				{
+					if (data['success'] == true) {
+						window.last_modal.close();
+						loadChat(data['data']);
+					}
+					else
+					{
+						window.last_modal.content.empty().prepend(data['data']);
+					}
+				}
+			});
+		});
+	</script>
+</form>

@@ -1,0 +1,38 @@
+{% load staticfiles %}<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title></title>
+	{% block css %}
+		<link rel="stylesheet" href="{% static "bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css" %}">
+		<link rel="stylesheet" href="{% static "bower_components/bootstrap/dist/css/bootstrap.min.css" %}">
+		<link rel="stylesheet" href="{% static "bower_components/bootstrap/dist/css/bootstrap-theme.min.css" %}">
+		<link rel="stylesheet" href="{% static "bower_components/jspanel/source/jquery.jspanel.css" %}">
+	{% endblock %}
+	{% block js %}
+		<script src="{% static "bower_components/jquery/dist/jquery.min.js" %}"></script>
+		<script src="{% static "bower_components/bootstrap/dist/js/bootstrap.min.js" %}"></script>
+		<script src="{% static "bower_components/jquery-ui/jquery-ui.min.js" %}"></script>
+		<script src="{% static "bower_components/jspanel/source/jquery.jspanel.min.js" %}"></script>
+		<script src="{% static "bower_components/jquery-form/jquery.form.js" %}"></script>
+		<script src="{% static "bower_components/noty/js/noty/packaged/jquery.noty.packaged.min.js" %}"></script>
+	{% endblock %}
+</head>
+<body>
+<div class="alert alert-danger">
+	<p>
+		The project is not developed nor supported any more. See
+		<a href="https://github.com/diraven/streamchats2">https://github.com/diraven/streamchats2</a> for details.
+	</p>
+	<p>
+		<strong>Warning: </strong> this service is going to be shut down at 2017-04-01. Please make sure to find a
+		replacement before then.
+	</p>
+	<p>
+		If you have any questions - feel free to
+		<a href="https://github.com/diraven/streamchats2/issues/new">create a ticket</a>.
+	</p>
+</div>
+{% block body %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,6 @@
+{% load i18n %}
+<form>
+	{% csrf_token %}
+	{% include "base/tools/form/bootstrapped.html" with form=form %}
+	<button type="submit" class="btn btn-success">{% trans "Submit" %}</button>
+</form>

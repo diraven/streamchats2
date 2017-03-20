@@ -1,0 +1,18 @@
+{% extends "base/base.html" %}
+{% load staticfiles %}
+
+{% block css %}
+	{{ block.super }}
+	<link rel="stylesheet" href="{% static "chats/css/chats.css" %}">
+{% endblock %}
+
+{% block js %}
+	{{ block.super }}
+	<script src="{% static "chats/js/chats.js" %}"></script>
+{% endblock %}
+
+{% block body %}
+	{% include "chats/header.html" %}
+
+	<div id="objects"></div>
+{% endblock %}
